@@ -1,0 +1,52 @@
+###########################
+#      By KingAlterIV     #
+#    BrettPlayMC = Bad    #
+###########################
+
+# The version of the current skript and config.
+version: 0.0.1
+
+# The prefix of the current skript.
+prefix: '\u\8[\u\cIIIV\u\8]'
+
+# The permssions of the current skript (DO NOT CHANGE)
+permissions: 'PermissionsEX'
+
+# The currency of the skript
+currency:
+
+# Enable vault use? (Rubies (default currency) will be replaced as %player's balance%
+# RECCOMENDED: false
+  vault: false
+
+# The name of the currency
+# DEFAULT = Rubies
+  name: Rubies
+# The color of the name of rubies
+# \u\0 = black
+# \u\1 = dark_blue
+# \u\2 = dark_green
+# \u\3 = dark_aqua
+# \u\4 = dark_red
+# \u\5 = dark_purple
+# \u\6 = gold
+# \u\7 = gray
+# \u\8 = dark_gray
+# \u\9 = blue
+# \u\a = green
+# \u\b = aqua
+# \u\c = red
+# \u\d = light_purple
+# \u\e = yellow
+# \u\f = white
+  color: dark_red
+
+json:
+  who: '%loop-player%'
+  chat: '%player''s group% %player% > %message%'
+  hoverable: 'hey'
+  clicked: 'http://www.kingalteriv.tk'
+  features:
+    captcha: true
+    antispam: true
+    antibot: true
